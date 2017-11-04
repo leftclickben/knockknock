@@ -1,0 +1,21 @@
+{
+  "name": "knockknock",
+  "version": "1.0.0",
+  "description": "Solution for Readify \"Knock! Knock!\" API problem",
+  "main": "app/handler.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha 'test/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:leftclickben/knockknock.git"
+  },
+  "author": "Ben New <ben@leftclick.com.au>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "serverless-api-stage": "^1.1.0",
+    "sinon": "^4.1.1"
+  }
+}
